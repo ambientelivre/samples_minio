@@ -6,8 +6,3 @@ client = Minio(
     secret_key="Ck64zW3nA9ipQoGMTJk8FQRYcNI4AN0W",
     secure=False
 )
-
-if client.bucket_exists("myfirstbucket"):
-    print("myfirstbucket existe")
-else:
-    print("myfirstbucket não existe")
