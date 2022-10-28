@@ -1,4 +1,3 @@
-from minio import Minio
 from connection import client
 
 buckets = client.list_buckets()
