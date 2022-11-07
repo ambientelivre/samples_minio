@@ -1,5 +1,5 @@
-# Samples using Minio and Boto3
+# Samples using Minio and Boto
 - upload objects
 
 # Boto3
-boto is a AWS framawork for S3 ans other AWS services.
+Boto is a AWS framework for S3 and other AWS services.
