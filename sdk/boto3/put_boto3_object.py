@@ -1,6 +1,6 @@
 import boto3
 
-BUCKET = 'astatusmatadata'
+BUCKET = 'myfirstbucket'
 HTTP = 'http://'
 ENDPOINT = 'localhost:9001'
 
