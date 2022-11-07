@@ -2,7 +2,7 @@ import boto3
 
 BUCKET = 'myfirstbucket'
 HTTP = 'http://'
-ENDPOINT = 'localhost:9001'
+ENDPOINT = 'localhost:9000'
 
 FILENAME_ON_S3 = 'storage/background-bi.svg'
 PATH_TO_PNG_FILE_ON_DISK = '/home/ambientelivre/Imagens/background-bi.svg'
@@ -24,4 +24,3 @@ print('Upload arquivo svg...')
 s3resource.Bucket(BUCKET).upload_file(PATH_TO_PNG_FILE_ON_DISK, FILENAME_ON_S3)
 
 print('Upload completo')
-
