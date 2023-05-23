@@ -1,4 +1,4 @@
-package br.com.ambientelivre.minio.client;
+package br.com.ambientelivre.minio.samples;
 
 import io.minio.MinioClient;
 
