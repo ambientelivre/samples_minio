@@ -11,10 +11,10 @@ public class BucketExists {
 	public static void main(String[] args)
       throws IOException, NoSuchAlgorithmException, InvalidKeyException {
     try {
+
     	
       boolean found = 
-    	MinioConnect.ClientConnection()
-    			.bucketExists(
+    		  MinioConnect.ClientConnection().bucketExists(
     					BucketExistsArgs
     					.builder()
     					.bucket("myfirstbucket")
